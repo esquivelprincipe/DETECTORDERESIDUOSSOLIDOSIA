@@ -1,0 +1,92 @@
+/*=============== BASE ===============*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body{
+    margin: var(--header-height) 0 0 0;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: .4s; // For animation dark mode
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+h1,h2,h3{
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+*:visited {
+    color: white;
+}
+
+/*===== CANVAS =====*/
+canvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 80vh;
+    max-width: 80vw;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/*===== MODEL =====*/
+.title__model h1
+{
+    text-align: center;
+    color: black !important;
+    padding-bottom: 5px;
+    margin: 1.2em;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+title__model h1::after
+{
+    content: '';
+    background: #004680;
+    display: block;
+    height: 3px;
+    width: 190px;
+    margin: 20px auto 5px;
+}
