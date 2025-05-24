@@ -60,7 +60,7 @@ function draw() {
   } else if (label == "ORGANICO") {
     emoji = "🍍🍎🍓🍇";
   } else if (label == "PLASTICO") {
-    emoji = "🛍️🥤";
+    emoji = "🛍️";
   }
 
   // Draw the emoji
