@@ -58,7 +58,7 @@ function draw() {
   } else if (label == "RESIDUOS BIOCONTAMINADOS") {
     emoji = "☣";
   } else if (label == "ORGANICO") {
-    emoji = "🍍🍎🍓";
+    emoji = "🍍🍎";
   } else if (label == "PLASTICO") {
     emoji = "🛍️";
   }
