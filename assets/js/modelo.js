@@ -4,7 +4,7 @@ let video;
 let label = "esperando...";
 // The classifier
 let classifier, img, input;
-let modelURL = 'https://teachablemachine.withgoogle.com/models/PhVvMIwXp/';
+let modelURL = 'https://teachablemachine.withgoogle.com/models/iCk_dsWKR/';
 
 // STEP 1: Load the model!
 function preload() {
