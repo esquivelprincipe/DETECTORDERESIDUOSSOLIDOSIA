@@ -50,7 +50,7 @@ function draw() {
   fill(255);
   text(label, width / 2, height - 16);
 
-  let emoji = "🕖";
+  let emoji = "⌛";
   if (label == "PAPEL Y CARTON") {
     emoji = "📦📃";
   } else if (label == "VIDRIO") {
@@ -58,7 +58,7 @@ function draw() {
   } else if (label == "RESIDUOS BIOCONTAMINADOS") {
     emoji = "☣";
   } else if (label == "ORGANICO") {
-    emoji = "🍍🍎🍓🍇";
+    emoji = "🍍🍎🍓";
   } else if (label == "PLASTICO") {
     emoji = "🛍️";
   }
