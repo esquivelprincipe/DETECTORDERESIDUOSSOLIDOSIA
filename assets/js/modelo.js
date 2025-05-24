@@ -50,20 +50,22 @@ function draw() {
   fill(255);
   text(label, width / 2, height - 16);
 
-  let emoji = "⏳";
+  let emoji = "🚂";
   if (label == "Carton") {
     emoji = "📦";
   } else if (label == "Vidrio") {
-    emoji = "🍾";
+    emoji = "🔮";
   } else if (label == "Metal") {
-    emoji = "☣";
+    emoji = "🎸";
   } else if (label == "Organico") {
     emoji = "🍎";
   } else if (label == "Papel") {
     emoji = "📃";
   } else if (label == "Plastico") {
     emoji = "🛍️";
-  
+  } else if (label == "Basura") {
+    emoji = "🗑️";
+  }
 
   // Draw the emoji
   textSize(256);
